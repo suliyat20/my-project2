@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+    
+.top{
+    margin-top: 50px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: hsl(300, 43%, 22%);
+}
+.top-left p{
+    color: hsl(300, 43%, 22%);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+h3{
+    color: hsl(303, 10%, 53%);
+
+}
+.right1{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  hsl(300, 24%, 96%);
+    width: 55%;
+    height: 25%;
+    border-radius: 10px;
+    gap: 20px;
+}
+.right2{
+    margin-left: 30px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  hsl(300, 24%, 96%);
+    width: 55%;
+    height: 25%;
+    border-radius: 10px;
+    gap: 20px;
+}
+.right3{
+    margin-left: 55px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  hsl(300, 24%, 96%);
+    width: 55%;
+    height: 25%;
+    border-radius: 10px;
+    gap: 20px;
+}
+.review{
+    margin-right: 10px;
+    font-weight: 700;
+}
+.report{
+    margin-right: 10px;
+    font-weight: 700;
+}
+.best{
+    margin-right: 10px;
+    font-weight: 700;
+}
+@media(max-width: 375px){
+    .top{
+        margin-top: 50px;
+        margin-left: 100px;
+        display: flex;
+        flex-direction: column;
+        color: hsl(300, 43%, 22%);
+    } 
+    } 
+.bottom{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+
+.second{
+    margin-top: 200px;
+}
+.colton{
+    background-color: hsl(300, 43%, 22%);
+    width: 80%;
+    height: 250px;
+    border-radius: 10px; 
+}
+.irene{
+    margin-top: 20px;
+    background-color: hsl(300, 43%, 22%);
+    width: 80%;
+    height: 250px;
+    border-radius: 10px; 
+}
+.anne{
+    margin-top: 35px;
+    background-color: hsl(300, 43%, 22%);
+    width: 80%;
+    height: 250px;
+    border-radius: 10px; 
+}
+h4{
+    margin-top: 30px;
+    margin-left: 20px;
+    color: hsl(0, 0%, 100%);
+
+}
+img{
+    border-radius: 100px;
+}
+.smith p{
+    margin-top: 20px;
+    color: hsl(0, 0%, 100%);
+}
+.veri{
+    color: hsl(333, 80%, 67%);
+}
+.smith{
+    margin-left: 35px;
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
